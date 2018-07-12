@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#cacaca"
+        android:baselineAligned="true"
+        android:focusableInTouchMode="false">
+
+            <android.support.v4.view.ViewPager
+                android:layout_width="381dp"
+                android:layout_height="150dp"
+                android:id="@+id/ads_img"
+                />
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="الاسعاف"
+
+            android:background="#008fff"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:allowUndo="true" />
+        <Button
+            android:id="@+id/btn1"
+            android:text="الشرطة"
+            android:background="#00BFFF"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <Button
+            android:id="@+id/btn3"
+            android:text="الدفاع المدني"
+            android:background="#008fff"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+        <Button
+            android:id="@+id/btn4"
+            android:text="البلدية"
+            android:background="#00Bfff"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
